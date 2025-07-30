@@ -12,6 +12,7 @@
       background: transparent;
       backdrop-filter: blur(1px);
       z-index: 1000;
+      color: white;
     }
 
     .nav-container {
@@ -109,6 +110,7 @@
       background: #333;
       border-radius: 3px;
       transition: all 0.3s ease;
+      color: black;
     }
 
     /* Hamburger animation to cross */
@@ -144,8 +146,9 @@
         width: 200px;
         gap: 10px;
       }
+
       .navbar{
-        width: fit-content;
+        width: 100%;
       }
 
       #menu-toggle:checked ~ .nav-links {
@@ -154,6 +157,7 @@
 
       .hamburger {
         display: flex;
+        margin-left: 60px;
       }
 
       .dropdown .options {
@@ -1117,15 +1121,16 @@
     /*---------------------------------------BLOGS PAGE-----------------------------------------*/
     /* Header */
 .blog-header {
-  background: linear-gradient(to right, #9d4edd, #7b2cbf);
+  background: linear-gradient(to right, #3765bc, #7b2cbf);
   padding: 60px 20px;
   text-align: center;
   color: white;
 }
 
 .blog-header h1 {
+  font-family: 'Poppins', sans-serif;
   font-size: 48px;
-  background: linear-gradient(to right, #ff6a00, #ee0979);
+  background: linear-gradient(to right, #ff2200, #ee0979);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -1722,6 +1727,9 @@
   margin-bottom: 10px;
   font-weight: 700;
   color: #101c3d;
+}
+.french-most-popular{
+  border-top: 5px solid #007bff;
 }
 
 .french-price-card h4 {
